@@ -5,7 +5,6 @@ const app = dialogflow()
 
 app.intent('Default Welcome Intent', conv => {
     conv.ask('Hi, how is it going?')
-    conv.ask(`I'm`)
 })
 
 app.intent('Goodbye', conv => {
